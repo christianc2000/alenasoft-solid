@@ -1,0 +1,5 @@
+- Primeramenta analicé el ejercicio y vi que para entender mejor la lógica debía aplicar un patrón de diseño para entender mejor lo que debe hacer cada opción de item según las especificaciones del ejercicio.
+- Apliqué el patrón de diseño estrategia para cada opción de las condicionales de la lógica que tenía aplicada.
+- Realice la lógica para cada estrategía, aplicando para las que tienen lógica específicas y la que es por defecto para cualquier item.
+- Luego modifique el "updateQuality" del archivo principal, para llamar a la estrategía verificando el nombre del item coincida con la estrategía.
+- Verifique las pruebas si funcionaban correctamente
