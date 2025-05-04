@@ -14,8 +14,6 @@ public class Conjured implements ItemStrategy {
             item.setQuality(item.getQuality() - 1);
         }
 
-        // Reducción adicional por ser Conjured (doble de rápido)
-        // Si está vencido, reduce una vez más (el quality no debe ser negativo)
         if (item.getQuality() > 0) {
             item.setQuality(item.getQuality() - 1);
         }
