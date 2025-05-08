@@ -12,7 +12,7 @@ public class GildedRose {
 
     public static void main(String[] args) {
 
-        System.out.println("OMGHAI!");
+        // System.out.println("OMGHAI!");
 
         items.add(new Item("+5 Dexterity Vest", 10, 20));
         items.add(new Item("Aged Brie", 2, 0));
@@ -23,7 +23,7 @@ public class GildedRose {
 
         updateQuality();
 
-        System.out.println(items);
+        // System.out.println(items);
     }
 
     public static void updateQuality() {
